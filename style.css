@@ -1,0 +1,21 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+    transform: translateY(-100%);
+}
+
+button{
+    display: inline-block;
+    font-size: 40px;
+}
+
+button + button{
+    margin-left: 100px;
+}
